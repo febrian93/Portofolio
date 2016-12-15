@@ -1,0 +1,257 @@
+ *{
+	margin: 0px; padding: 0px;
+	font-family: sans-serif; font-weight: normal;
+}
+
+a{
+	text-decoration: none;
+
+}
+
+li{
+	list-style: none;
+}
+
+img{
+
+	max-width: 100%; max-height: 100%;
+	
+}
+	
+
+
+/*-- Bagian Pertama --*/
+
+#pertama{
+
+	background:url('img/back.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-mos-background-size: cover;
+	height: 650px;
+	padding-top: 
+}
+
+.clear{
+	clear: both;
+}
+
+.konten{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.kolom_3{
+	width: 300px; float: left;
+	color: #fff;
+	
+}
+
+.kolom_3_tengah{
+	margin: 0 30px;
+}
+
+#logo{
+	display: block; width: 100px; margin: 0 auto;
+}
+
+#menu{
+	background-color: #000;
+	height: 50px; line-height: 50px;	
+	font-size: 20px; margin-top: 20px;
+}
+
+#menu a{
+	display: block; text-align: center;
+}
+
+#menu a:hover{
+	background-color: #eae6de;
+	color: #000;
+}
+
+#box_sd{
+	background-color: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	margin: 80px 0;
+	padding: 20px 0;
+}
+
+#box_sd a{
+	display: block;
+	color: white;
+	border: 2px solid white;
+	padding: 5px 0;
+	width: 300px;
+	margin: 25px auto 0 auto;
+
+}
+
+#box_sd a:hover{
+	background-color: #eae6de;
+	border: 2px solid black;
+	color: #000;
+}
+
+
+/*-- Bagian Kedua --*/
+
+#kedua{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+h2{
+	font-size: 35px;
+	padding: 30px 0 45px 0;	
+	width: 200px;
+	margin: 0 auto
+}
+
+#kedua img{
+	width: 250px; height: 250px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+/*-- jika ingin membuat judul absolute di 
+setiap gambar karya maka posisi gambar karya dibuat relative dan judulnya dibuat 
+ absolute --*/
+
+.setiap_karya{
+	position: relative;  						
+}
+
+.setiap_karya p{
+	position: absolute;
+	top:0px; left: 25px;
+	width: 250px; height: 250px; line-height: 250px;
+	text-align: center; font-size: 25px;
+	color: black;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 50%;
+	display: none;
+}
+
+.setiap_karya:hover p{
+	display: block;	
+}
+
+.deskripsi{
+
+	font-size: 25px;
+	text-align: center;
+	
+}
+
+/*-- Bagian ketiga --*/
+
+.kolom_2{
+	float: left;
+	width:450px;
+	margin: 0 15px;
+}
+
+#ketiga h2{
+	text-align: center;
+	color: black;
+}
+
+#ketiga input,#ketiga textarea{
+	display: block;
+	width: 100%;
+	height:30px;
+	margin-bottom: 12px;
+	border: 2px solid #000;
+}
+
+#ketiga textarea{
+	height: 130px;
+}
+
+input[type="submit"]	{
+	background-color: #000;
+	color: #fff;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: rgba(100,100,100,0.7);
+	color: #000;
+}
+
+#ketiga iframe{
+	max-width: 450px;
+}
+
+/*-- Bagian Setiap_folio --*/
+
+.panah_box{
+	width: 60px; height: 60px; line-height: 60px;
+	background-color: #000; color: #fff;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 200px;
+}
+
+.panah_box:hover{
+	cursor: pointer;
+	background-color: rgba(100,100,100,0.7);color: #000;
+
+}
+
+#karya_box{
+	width: 800px;
+	margin-top: 0 20px;
+}
+
+.panah_box, #karya_box, #karya_box_kr, #karya_box_kn {
+	float: left;
+}
+
+#karya_box_kn{
+	width: 500px;
+	height: 360px;
+	
+}
+
+#karya_box_kr{
+	width: 200px; padding: 30px 10px 0 10px;
+	height: 303px;
+	background-color: #000;
+	color: #fff;
+	margin-left: 40px;
+}
+
+#karya_box_kr h3{
+margin-bottom: 30px;
+font-size: 30px;
+text-align: center;
+}
+
+#karya_lain{
+	width: 450px; margin: 50px auto 0 auto;
+}
+
+#karya_lain img{
+	display: block;
+	float: left;
+	width: 140px;
+	margin-left: 10px;
+}
+
+/*-- Bagian footer --*/
+#footer{
+	background-color: #000;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 20px;
+}
